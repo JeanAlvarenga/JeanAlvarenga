@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <title id="title">Portifólio de Jean Alvarenga</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/10.13.0/firebase-app-compat.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/10.13.0/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/10.13.0/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/10.13.0/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/10.13.0/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/10.13.0/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/10.13.0/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/10.13.0/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/10.13.0/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/10.13.0/firebase-performance-compat.js"></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  
+  <body>
+    <main>
+      <header>
+        <div class="logo">
+          <a href="#"><img id="img_logo" src="images/logo.png" alt="JEAN ALVARENGA"></a>
+        </div>
+        <nav class="menu_desktop">
+          <ul>
+            <li><a id="page_home" href="#home">Home</a></li>
+            <li><a id="page_about" href="#about">About</a></li>
+            <li><a id="page_projects" href="#projects">Projects</a></li>
+            <li><a id="page_contact" href="#contact">Contact</a></li>
+            <li><label class="switch">
+              <input type="checkbox" id="languageSwitch" onchange="trocarLingua()">
+              <span class="slider"></span>
+              <span class="language-label left">Pt</span>
+              <span class="language-label right">En</span>
+            </label></li>
+             <!-- <li><label for="languageSwitch" id="labelSwitch">Português</label></li> -->
+         </ul>
+        </nav>
+      </header>
+      <section id="home" class="content">
+        <div class="text">
+          <h1>
+            <span id="text_hello">Hello, I'm</span><br>
+            <span id="text_automation">An Automation</span><br>
+            <span id="text_enginner" class="engineer"> Engineer</span>
+          </h1>
+        </div>
+        <div class="img_group">
+          <div class="img_group_inner">
+            <img src="images/canva_1.png" alt="">
+            <img src="images/canva_4.png" alt="">
+            <img src="images/canva_2.png" alt="">
+            <img src="images/canva_3.png" alt="">
+          </div>
+        </div>
+        <div class="bottom_text">
+          <h5 id="text_description">I develop hardware, software and web programming projects</h5>
+        </div>
+      </section>
+      <div style="height: 12vh;"></div>
+      <section  id="about" class="about">
+        <div class="interface">
+          <div style="height: 14vh;"></div>
+          <div class="flex">
+            <div class="txt-about">
+              <h1 id="about-me">About</h1>
+              <p id="text-desc-about">texto descricao</p>
+              <div class="tecnologias">
+                <div class="tech">
+                  <img src="icons/js.png" alt="Java Script">
+                  <div class="tech-name">Java Script</div>
+                </div>
+                <div class="tech">
+                  <img src="icons/java.png" alt="Java">
+                  <div class="tech-name">Java</div>
+                </div>
+                <div class="tech">
+                  <img src="icons/html.png" alt="HTML">
+                  <div class="tech-name">HTML</div>
+                </div>
+                <div class="tech">
+                  <img src="icons/css.png" alt="CSS">
+                  <div class="tech-name">CSS</div>
+                </div>
+                <div class="tech">
+                  <img src="icons/c.png" alt="C">
+                  <div class="tech-name">C</div>
+                </div>
+                <div class="tech">
+                  <img src="icons/c-.png" alt="C++">
+                  <div class="tech-name">C++</div>
+                </div>
+                <div class="tech">
+                  <img src="icons/python.png" alt="Python">
+                  <div class="tech-name">Python</div>
+                </div>
+                <div class="tech">
+                  <img src="icons/kotlin.png" alt="kotlin">
+                  <div class="tech-name">kotlin</div>
+                </div>
+                <div class="tech">
+                  <img src="icons/database.png" alt="Database">
+                  <div class="tech-name">Database</div>
+                </div>
+                <div class="tech">
+                  <img src="icons/android.png" alt="Android">
+                  <div class="tech-name">Android Studio</div>
+                </div>
+                <div class="tech">
+                  <img src="icons/plc.png" alt="PLC">
+                  <div class="tech-name">Ladder</div>
+                </div>
+                <div class="tech">
+                  <img src="icons/LV-.png" alt="LabVIEW">
+                  <div class="tech-name">LabVIEW</div>
+                </div>
+                <div class="tech">
+                  <img src="icons/arduino.png" alt="Arduino">
+                  <div class="tech-name">Arduino e ESP32</div>
+                </div>
+                <div class="tech">
+                  <img src="icons/proteus.png" alt="Proteus">
+                  <div class="tech-name">Design PCB</div>
+                </div>
+                <div class="tech">
+                  <img src="icons/matlab-.png" alt="Matlab">
+                  <div class="tech-name">Matlab</div>
+                </div>
+                <div class="tech">
+                  <img src="icons/nodejs.png" alt="Node JS">
+                  <div class="tech-name">Node JS</div>
+                </div>
+                <div class="tech">
+                  <img src="icons/nodered.png" alt="Node RED">
+                  <div class="tech-name">Node RED</div>
+                </div>
+                <div class="tech">
+                  <img src="icons/autocad.png" alt="Autocad">
+                  <div class="tech-name">Autocad</div>
+                </div>                
+              </div>
+              <button id="getDownloadURL" class="baixarcv">Baixar CV</button>
+            </div>
+            <div class="image-profile"><br>
+              <img src="images/profile.png" alt="Imagem do Perfil"><br><br>
+              
+            </div>
+          </div>
+        </div>
+        <div style="height: 12vh;"></div>
+      </section>
+      
+      <section id="projects" class="projects">
+        <div class="interface">
+          <div class="txt-title">
+            <h1 id="text-my">MEUS </h1>&emsp;
+            <h1 id="text-projects"><span>PROJETOS.</span></h1>
+          </div>
+          <div class="flex">
+            <div class="especialidades-box">
+              <img src="images/imgsite.png">
+              <i class="bi bi-code-slash"></i>  <h3 id="txtWebsite"></h3>
+              <p id="txtWebsiteDesc"></p>
+              <br><h5 class="js">Javascript</h5><h5 class="css">Css</h5><h5 class="html">Html</h5>
+            </div><!--especialidades box-->
+            <div class="especialidades-box">
+              <img src="images/imgaut.png">
+              <i class="bi bi-code-slash"></i> <h3 id="txtHomeAutomation">Home automation with website</h3> 
+              <p id="txtHomeAutomationDesc">Creation of a web server to automate my home, where it is possible to read sensors and control actuators</p>
+              <br><h5 class="js">Javascript</h5><h5 class="css">Css</h5><h5 class="html">Html</h5>
+            </div><!--especialidades box-->
+            <div class="especialidades-box">
+              <img src="images/imgappaut.png">
+              <i class="bi bi-android2"></i> <h3 id="txtAppHomeAutomation">Home automation with app</h3> 
+              <p id="txtAppHomeAutomationDesc">Creating an Android application to automate my home using an external network</p>
+              <br><h5 class="android">Android</h5><h5 class="arduino">Arduino</h5><h5 class="sql">Firebase</h5>
+              <br><h5 class="kotlin">Kotlin</h5>
+            </div><!--especialidades box-->
+            <div class="especialidades-box">
+              <img src="images/imgfabrica.png">
+              <i class="bi bi-filetype-java"></i> <h3 id="txtJavaProject"></h3>
+              <p id="txtJavaProjectDesc"></p>
+              <br><h5 class="java">Java</h5><h5 class="kotlin">TCP/IP</h5><h5 class="android">Android</h5>
+            </div>
+            <div class="especialidades-box">
+              <img src="images/imgpcbaut.png">
+              <i class="bi bi-cpu"></i> <h3 id="txtPCBAutomation">PCB to automation</h3> 
+              <p id="txtPCBAutomationDesc">Development of a PCB that has a controller that communicates with the network to control actuators, such as lamps, hydraulic pumps and motors through the activation of contactors</p>
+              <br><h5 class="proteus">Proteus</h5><h5 class="c-">C++</h5><h5 class="arduino">Arduino</h5>
+              <br><h5 class="eletronic">Eletronic</h5>
+            </div><!--especialidades box-->
+            <div class="especialidades-box">
+              <img src="images/imgampv2.png">
+              <i class="bi bi-lightning-charge"></i> <h3 id="txtTubeAmplifier"></h3>
+              <p id="txtTubeAmplifierDesc"></p>
+              <br><h5 class="eletronic">Eletronic</h5><h5 class="proteus">Proteus</h5>
+            </div><!--especialidades box-->
+            <div class="especialidades-box">
+              <img src="images/imgposicao.png">
+              <i class="bi bi-cup-hot"></i> <h3 id="txtControlPosition"></h3>
+              <p id="txtControlPositionDesc"></p>
+              <br><h5 class="autocad">Autocad</h5><h5 class="c-">C++</h5><h5 class="arduino">Arduino</h5>
+              <br><h5 class="labview">LabVIEW</h5><h5 class="matlab">Matlab</h5>
+            </div><!--especialidades box-->
+            <div class="especialidades-box">
+              <img src="images/imgtank.png">
+              <i class="bi bi-controller"></i> <h3 id="txtControlLevel"></h3>
+              <p id="txtControlLevelDesc"></p>
+              <br><h5 class="labview">LabVIEW</h5><h5 class="arduino">Arduino</h5><h5 class="c-">C++</h5>
+              <br><h5 class="eletronic">Eletronic</h5><h5 class="matlab">Matlab</h5>
+            </div><!--especialidades box-->
+            <div class="especialidades-box">
+              <img src="images/imgtcc.png">
+              <i class="bi bi-braces-asterisk"></i> <h3 id="txtTcc"></h3> 
+              <p id="txtTccDesc"></p>
+              <br><h5 class="eletronic">Eletronic</h5><h5 class="node">NodeRED</h5><h5 class="c-">C++</h5>
+              <br><h5 class="arduino">Arduino</h5><h5 class="matlab">Matlab</h5>
+            </div><!--especialidades box-->
+            <div class="especialidades-box">
+              <img src="images/imgquadro.png">
+              <i class="bi bi-ladder"></i> <h3 id="txt-eletrical-panel"></h3> 
+              <p id="txtEletricalPanelDesc"></p>
+              <br><h5 class="eletronic">Eletronic</h5><h5 class="node">Ladeer</h5>
+            </div><!--especialidades box-->
+          </div>
+        </div>
+      </section>
+      <section class="sobre">
+        <div class="interface">
+          <div class="flex">
+            <div class="img-sobre">
+              <img src="images/PSX_20191226_071046.png" alt="">
+            </div>
+            <div class="txt-sobre">
+              <h2 id="m-p">MUITO PRAZER,</h2>
+              <h2 id="s-ja"><span>SOU JEAN ALVARENGA.</span></h2>
+              <p id="p-a">Sou um Engenheiro de Controle e Automação com foco em hardware, software e web programming. Meu objetivo é ajudar pessoas a resolver problemas complexos e oferecer soluções inovadoras.</p>
+              <p id="p-b">Meu trabalho é dividido em três áreas principais: hardware, software e web programming. Minhas habilidades incluem a criação de hardware de baixo nível, a construção de software de alta performance, bem como o desenvolvimento de sites web.</p>
+              <div class="btn-social">
+                <a href="https://www.linkedin.com/in/jean-paulo-alvarenga-293bbb135/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+              <a href="https://github.com/JeanAlvarenga" target="_blank"><button><i class="bi bi-github"></i></button></a>
+              <a href="https://www.instagram.com/ja_i_electronike/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+              </div>
+            </div>
+          </div>
+        </div> <!--div interface-->
+      </section> <!--section sobre-->
+
+      <section id="contact" class="contact">
+        <div style="height: 8vh;"></div>
+        <div class="interface">
+          <h2 class="titulo">FALE COMIGO</h2>
+          <form action="" class="">
+            <input type="text" name="" id="" placeholder="Your name" required>
+            <input type="text" name="" id="" placeholder="Your e-mail:" required>
+            <input type="text" name="" id="" placeholder="Your cell:">
+            <textarea name="" id="" placeholder="Your message:" required></textarea>
+            <div class="btn-enviar"><input type="submit" value="SEND"></div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="interface">
+        <div class="line-footer">
+          <div class="flex">
+            <div class="logo-footer">
+              <img src="images/logo.png" alt="Logo">
+            </div>
+            <div class="btn-social">
+              <a href="https://www.linkedin.com/in/jean-paulo-alvarenga-293bbb135/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+              <a href="https://github.com/JeanAlvarenga" target="_blank"><button><i class="bi bi-github"></i></button></a>
+              <a href="https://www.instagram.com/ja_i_electronike/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+              <a href="mailto:jaielectronike@gmail.com"><button><i class="bi bi-envelope"></i></button></a>
+            </div>
+          </div>
+        </div>
+        <div class="line-footer borda">
+          <div>
+            <p>&copy;
+            <script>document.write(new Date().getFullYear());</script> Jean Alvarenga. All rights reserved to the author
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <div class="janela-modal" id="janela-modal">
+      <div class="modal">
+        <button class="fechar" id="fechar">x</button>
+        <h1>Janela Modal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam odit quaerat suscipit voluptatum laudantium beatae doloribus? Harum velit,
+           culpa temporibus nemo laboriosam ad inventore rerum repellendus, tenetur optio necessitatibus aspernatur?</p>
+      </div> <!-- conteudo da janela --
+    </div> <!--Janela modal - embaça a tela --
+    https://www.youtube.com/watch?v=pGJB5FgfdMI
+     -->
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- lettering.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <!-- page animation -->
+    <script src="js/motor.js"></script>
+    <script src="js/language.js"></script>
+
+    <script>
+      function redirect(par) {
+        if(par == "linkedin"){
+          window.open("https://www.linkedin.com/in/jean-alvarenga-35b284207/");
+        }
+        window.location.href = "index.html";
+      }
+      document.getElementById("img_logo").addEventListener("click", redirect);
+      //document.getElementById("page_home").addEventListener("click", redirect);
+      //document.getElementById("page_about").addEventListener("click", function() { window.location.href = "about.html";  });
+      //document.getElementById("page_projects").addEventListener("click", function() { window.location.href = "projects.html";  });
+      //document.getElementById("page_contact").addEventListener("click", function() { window.location.href = "contact.html";  });
+
+      document.getElementById("getDownloadURL").addEventListener("click", function() { 
+        // Obtém o texto do elemento <a> com o ID 'page_home'
+        var homeText = document.getElementById("page_home").textContent.trim().toLowerCase();
+        // Define o link com base no idioma
+        var url;
+        if (homeText === 'início') {
+            // Se o idioma for português
+            url = "https://firebasestorage.googleapis.com/v0/b/jean-alvarenga.appspot.com/o/cv%2FJEAN%20PAULO%20DE%20ALVARENGA%20(PT).pdf?alt=media&token=93d84641-da79-4722-b791-756cd4f66a90";
+        } else if (homeText === 'home') {
+            // Se o idioma for inglês
+            url = "https://firebasestorage.googleapis.com/v0/b/jean-alvarenga.appspot.com/o/cv%2FJEAN%20PAULO%20DE%20ALVARENGA%20(EN).pdf?alt=media&token=1f38e15c-7902-4552-8b45-16ca49816807";
+        } else {
+            // Se nenhum dos idiomas for detectado, define um idioma padrão (ex: português)
+            url = "https://firebasestorage.googleapis.com/v0/b/jean-alvarenga.appspot.com/o/cv%2FJEAN%20PAULO%20DE%20ALVARENGA%20(PT).pdf?alt=media&token=93d84641-da79-4722-b791-756cd4f66a90";
+        }
+        // Abre o link na nova aba
+        window.open(url, '_blank');
+      });
+    </script>
+
+  </body>
+</html>
+<!-- https://www.youtube.com/watch?v=b78twrQtGqY&list=PLmFAcHdmOjpIkuDTwQwdJkIWuSjN_j9Co&index=5 -->
+<!--
+<body>
+  <div id="message">
+    <h2>Welcome</h2>
+    <h1>Firebase Hosting Setup Complete</h1>
+    <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
+    <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+  </div>
+  <p id="load">Firebase SDK Loading&hellip;</p>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const loadEl = document.querySelector('#load');
+      // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+      // // The Firebase SDK is initialized and available here!
+      //
+      // firebase.auth().onAuthStateChanged(user => { });
+      // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+      // firebase.firestore().doc('/foo/bar').get().then(() => { });
+      // firebase.functions().httpsCallable('yourFunction')().then(() => { });
+      // firebase.messaging().requestPermission().then(() => { });
+      // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+      // firebase.analytics(); // call to activate
+      // firebase.analytics().logEvent('tutorial_completed');
+      // firebase.performance(); // call to activate
+      //
+      // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+      try {
+        let app = firebase.app();
+        let features = [
+          'auth', 
+          'database', 
+          'firestore',
+          'functions',
+          'messaging', 
+          'storage', 
+          'analytics', 
+          'remoteConfig',
+          'performance',
+        ].filter(feature => typeof app[feature] === 'function');
+        loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
+      } catch (e) {
+        console.error(e);
+        loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+      }
+    });
+  </script>
+</body>
+-->
+
+<!-- https://icons.getbootstrap.com/ -->

@@ -1,0 +1,108 @@
+{
+    "pt": {
+        "idioma": "portugues",
+        "titulo": "Portifólio de Jean Alvarenga",
+        "labelSwitch": "Português",
+        "pageHome": "Início",
+        "pageAbout": "Sobre",
+        "pageProjects": "Projetos",
+        "pageContact": "Contato",
+
+        "textHello": "Olá, eu sou",
+        "textAutomation": "um Engenheiro",
+        "textEnginner": "de Automação",
+        "textDescription": "Eu desenvolvo Hardware, software e projetos de programação WEB",
+        "textAboutMe": "Integro tecnologia e inovação em cada projeto que desenvolvo.",
+        "textDescAbout": "Sou um profissional apaixonado por tecnologia, especializado em desenvolvimento full stack, com vasta experiência em gerenciar projetos e criar soluções inovadoras. Com expertise em aplicativos móveis, programação de dispositivos embarcados e tecnologias emergentes, como LoRa, estou sempre à frente na construção de um futuro conectado. Atualmente, foco no desenvolvimento de aplicações multiplataforma e na criação de experiências digitais que impactam positivamente a vida das pessoas.",
+    
+        "textMy": "Meus ",
+        "textProjects": "projetos",
+        "textDownload": "Baixar CV",
+
+        "txtWebsite": "Site Web",
+        "txtHomeAutomation": "Servidor local para automação",
+        "txtAppHomeAutomation": "Aplicativo Android para automatização residencial",
+        "txtPCBAutomation": "PCB para automatização",
+
+        "txtWebsiteDesc":"Criação de um site para expor meu Portifólio, destacando alguns de meus principais projetos",
+        "txtHomeAutomationDesc": "Criação de um servidor web para automatizar a minha casa, onde é possível ler sensores e controlar atuadores",
+        "txtAppHomeAutomationDesc": "Criação de um aplicativo android para automatização da minha casa com utilização de rede externa",
+        "txtPCBAutomationDesc": "Desenvolvimento de uma PCB que possui um controlador que se comunica com a rede para controle de atuadores, como lampadas, bombas hidraulicas e motores através do acionamento de contatores",
+
+        "txtEletricPanel": "Quadro elétrico",
+        "txtEletricPanelDesc": "Projeto e montagem de um quadro elétrico para empresa FIKIRIA. O quadro serve para automatizar os motores dos secadores de café.",
+
+        "txtTcc": "Equipamento com interface gráfica",
+        "txtTccDesc": "Desenvolvimento que um equipamento para medir a oxidação de lipídios. O equipamento está sob depósito de patente: BR 10 2022 007340 6.",
+
+        "txtControlLevel": "Controlador PID com interface gráfica",
+        "txtControlLevelDesc": "Desenvolvimento de um controlador de nível em um tanque de mistura de reagentes químicos com interface gráfica.",
+
+        "txtControlPosition": "Controlador de posição",
+        "txtControlPositionDesc": "Este controlador PID de posição faz parte do projeto Suporte de Peso, onde nessa etapa foi projetado o controlador de posição para uma pessoa, afim de 'minimizar as ações da gravidade' sobre um paciente que faz tratamento de doenças como AVC.",
+
+        "txtTubeAmplifier": "Amplificador valvulado",
+        "txtTubeAmplifierDesc": "Sempre fui apaixonado pelo timbre característico dos amplificadores valvulados. Decidi colocar em prática meus conhecimentos em eletrônica e construir um clone do icônico JCM800. Essa empreitada me permitiu explorar a fundo os circuitos valvulados e obter um som de guitarra autêntico e personalizado.",
+
+        "txtJavaProject": "Software gerenciador de linha de produção",
+        "txtJavaProjectDesc": "Desenvolvi um sistema de gerenciamento de produção para uma fábrica de biscoitos, otimizando o direcionamento dos produtos para os fornos. Utilizamos programação paralela e concorrente para garantir a eficiência na distribuição dos biscoitos recheados (fornos 1 e 2) e comuns (fornos 1, 2 e 3), considerando a disponibilidade de cada forno. Essa abordagem permitiu um controle preciso do fluxo de produção e uma melhor utilização dos recursos.",
+
+        "txtmp": "MUITO PRAZER",
+        "txtsja": "SOU JEAN ALVARENGA.",
+        "txtpa": "Sou um Engenheiro de Controle e Automação com foco em hardware, software e web programming. Meu objetivo é ajudar pessoas a resolver problemas complexos e oferecer soluções inovadoras.",
+        "txtpb": "Meu trabalho é dividido em três áreas principais: hardware, software e web programming. Minhas habilidades incluem a criação de hardware de baixo nível, a construção de software de alta performance, bem como o desenvolvimento de sites web."
+    },
+    "en": {
+        "idioma":"ingles",
+        "titulo": "Jean Alvarenga's Portfolio",
+        "labelSwitch": "English",
+        "pageHome": "Home",
+        "pageAbout": "About",
+        "pageProjects": "Projects",
+        "pageContact": "Contact",
+
+        "textHello": "Hello, I'm",
+        "textAutomation": "An Automation",
+        "textEnginner": "Engineer",
+        "textDescription": "I develop hardware, software and web programming projects",
+        "textAboutMe": "I integrate technology and innovation into every project I develop.",
+        "textDescAbout": "I am a technology enthusiast with expertise in full stack development, extensive experience in project management, and a passion for creating innovative solutions. With a strong background in mobile app development, embedded systems programming, and emerging technologies like LoRa, I am always at the forefront of building a connected future. Currently, I focus on developing cross-platform applications and creating digital experiences that positively impact people's lives.",
+
+        "textMy": "My ",
+        "textProjects": "projects",
+        "textDownload": "Download CV",
+
+        "txtWebsite": "Website",
+        "txtHomeAutomation": "Home automation with website",
+        "txtAppHomeAutomation": "Home automation with app",
+        "txtPCBAutomation": "PCB to Automation",
+
+        "txtWebsiteDesc":"Creation of a website to showcase my Portfolio, highlighting some of my main projects",
+        "txtHomeAutomationDesc": "Creation of a web server to automate my home, where it is possible to read sensors and control actuators",
+        "txtAppHomeAutomationDesc": "Creation of an Android app for home automation with external network integration",
+        "txtPCBAutomationDesc": "Development of a PCB with a controller that communicates with the network to control actuators, such as light bulbs, hydraulic pumps and motors through contactors",
+
+        "txtEletricPanel": "Electrical panel",
+        "txtEletricPanelDesc": "Design and assembly of an electrical panel for the company FIKIRIA. The panel is used to automate the motors of coffee dryers.",
+
+        "txtTcc": "Equipment with graphical interface",
+        "txtTccDesc": "Development of equipment to measure lipid oxidation. The equipment is under patent application: BR 10 2022 007340 6.",
+
+        "txtControlLevel": "PID controller with graphical interface",
+        "txtControlLevelDesc": "Development of a level controller in a chemical reagent mixing tank with graphical interface",
+
+        "txtControlPosition": "Position controller",
+        "txtControlPositionDesc": "This position PID controller is part of the Weight Support project, where at this stage the position controller was designed for a person, in order to 'minimize the actions of gravity' on a patient undergoing treatment for diseases such as stroke.",
+
+        "txtTubeAmplifier": "Tube amplifier",
+        "txtTubeAmplifierDesc": "I have always been fascinated by the distinctive tone of tube amplifiers. I decided to put my electronics knowledge to use and build a clone of the iconic JCM800. This endeavor allowed me to explore tube circuits in depth and obtain an authentic and personalized guitar sound.",
+
+        "txtJavaProject": "Production line management software",
+        "txtJavaProjectDesc": "I developed a production management system for a biscuit factory, optimizing product routing to ovens. We used parallel and concurrent programming to ensure efficient distribution of filled biscuits (ovens 1 and 2) and plain biscuits (ovens 1, 2, and 3), considering the availability of each oven. This approach allowed for precise control of the production flow and better utilization of resources.",
+
+        "txtmp": "NICE TO MEET YOU",
+        "txtsja": "I'M JEAN ALVARENGA",
+        "txtpa": "I am a Control and Automation Engineer with a focus on hardware, software and web programming. My goal is to help people solve complex problems and provide innovative solutions.",
+        "txtpb": "My work is divided into three main areas: hardware, software and web programming. My skills include designing low-end hardware, building high-performance software, as well as developing websites."
+    }
+}

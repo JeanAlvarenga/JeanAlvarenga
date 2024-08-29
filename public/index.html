@@ -42,15 +42,28 @@
             <li><a id="page_about" href="#about">About</a></li>
             <li><a id="page_projects" href="#projects">Projects</a></li>
             <li><a id="page_contact" href="#contact">Contact</a></li>
-            <li><label class="switch">
-              <input type="checkbox" id="languageSwitch" onchange="trocarLingua()">
-              <span class="slider"></span>
-              <span class="language-label left">Pt</span>
-              <span class="language-label right">En</span>
-            </label></li>
+            <!--  -->
              <!-- <li><label for="languageSwitch" id="labelSwitch">Português</label></li> -->
          </ul>
         </nav>
+        <button onclick="animarMenu()" id="btn-menu">
+          <span class="linha"></span>
+          <span class="linha"></span>
+          <span class="linha"></span>
+        </button>
+        <nav class="menu-mobile" id="menu-mobile">
+          <a id="page_home-1" href="#home">Home</a>
+          <a id="page_about-1" href="#about">About</a>
+          <a id="page_projects-1" href="#projects">Projects</a>
+          <a id="page_contact-1" href="#contact">Contact</a>
+             <!-- <li><label for="languageSwitch" id="labelSwitch">Português</label></li> --> 
+        </nav>
+        <li><label class="switch">
+          <input type="checkbox" id="languageSwitch" onchange="trocarLingua()">
+          <span class="slider"></span>
+          <span class="language-label left">Pt</span>
+          <span class="language-label right">En</span>
+        </label></li>
       </header>
       <section id="home" class="content">
         <div class="text">

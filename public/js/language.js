@@ -33,6 +33,10 @@ function carregarTextos(language) {
             document.getElementById("page_about").innerText = data[language].pageAbout;
             document.getElementById("page_projects").innerText = data[language].pageProjects;
             document.getElementById("page_contact").innerText = data[language].pageContact;
+            document.getElementById("page_home-1").innerText = data[language].pageHome;
+            document.getElementById("page_about-1").innerText = data[language].pageAbout;
+            document.getElementById("page_projects-1").innerText = data[language].pageProjects;
+            document.getElementById("page_contact-1").innerText = data[language].pageContact;
             
             document.getElementById("about-me").innerText = data[language].textAboutMe;
             document.getElementById("text-desc-about").innerText = data[language].textDescAbout;
